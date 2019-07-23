@@ -10,6 +10,10 @@
     <description>This module is a test for Redis Cache integration. Do not add this
         as a dependency to your project</description>
 
+    <properties>
+        <javalite-version>2.3</javalite-version>
+    </properties>
+
     <build>
         <plugins>
             <plugin>
@@ -26,7 +30,7 @@
             <plugin>
                 <groupId>org.javalite</groupId>
                 <artifactId>activejdbc-instrumentation</artifactId>
-                <version>1.4.12-SNAPSHOT</version>
+                <version>${javalite-version}</version>
                 <executions>
                     <execution>
                         <phase>process-classes</phase>
@@ -57,7 +61,7 @@
         <dependency>
             <groupId>org.javalite</groupId>
             <artifactId>activejdbc</artifactId>
-            <version>1.4.12-SNAPSHOT</version>
+            <version>${javalite-version}</version>
             <exclusions>
                 <exclusion>
                     <groupId>opensymphony</groupId>
