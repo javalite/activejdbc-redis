@@ -1,1 +1,2 @@
-# Example of ActiveJDBC configured to use Redis as cache.
+# This repository is deprecated. All examples have moved to [JavaLite Examples](https://github.com/javalite/javalite-examples) repo.
+
